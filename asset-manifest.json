@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Sathishcomic/my_portfoliowebsite/static/css/main.d7438879.css",
+    "main.js": "/Sathishcomic/my_portfoliowebsite/static/js/main.8cc74e83.js",
+    "static/media/about.png": "/Sathishcomic/my_portfoliowebsite/static/media/about.619ff0b319a55d0c05b1.png",
+    "static/media/hero.png": "/Sathishcomic/my_portfoliowebsite/static/media/hero.f14f30c6d01a97df04f6.png",
+    "static/media/sathish.pdf": "/Sathishcomic/my_portfoliowebsite/static/media/sathish.9b105971751b96fbca61.pdf",
+    "static/media/resume.jpg": "/Sathishcomic/my_portfoliowebsite/static/media/resume.40d9ec3d0701d254f50f.jpg",
+    "static/media/food-ecommerce.jpg": "/Sathishcomic/my_portfoliowebsite/static/media/food-ecommerce.326353bf18adc9f60576.jpg",
+    "static/media/ecommerce-websites.jpg": "/Sathishcomic/my_portfoliowebsite/static/media/ecommerce-websites.a5d17e54a5ffb19ff686.jpg",
+    "static/media/website-blog.jpg": "/Sathishcomic/my_portfoliowebsite/static/media/website-blog.34169abf2d417858685b.jpg",
+    "index.html": "/Sathishcomic/my_portfoliowebsite/index.html",
+    "main.d7438879.css.map": "/Sathishcomic/my_portfoliowebsite/static/css/main.d7438879.css.map",
+    "main.8cc74e83.js.map": "/Sathishcomic/my_portfoliowebsite/static/js/main.8cc74e83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7438879.css",
+    "static/js/main.8cc74e83.js"
+  ]
+}
