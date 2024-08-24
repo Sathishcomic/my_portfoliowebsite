@@ -1,0 +1,85 @@
+/* About Section Styles */
+.about-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5rem;
+    background-color: #1a1a1a; /* Dark background */
+    color: white;
+    transition: all 0.3s ease-in-out;
+
+}
+
+@media (min-width: 768px) {
+    .about-section {
+        flex-direction: row;
+        padding: 4rem 2rem;
+    }
+}
+
+/* Image Container Styles */
+.about-section img {
+    margin-bottom: 1rem;
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 2rem;
+}
+
+.about-section img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.5); /* Deeper shadow */
+}
+
+@media (min-width: 768px) {
+    .about-section img {
+        margin-bottom: 0;
+        margin-right: 3rem;
+    }
+}
+
+/* Table Styles */
+.about-section table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0.5rem;
+    margin-top: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.about-section th,
+.about-section td {
+    padding: 0.75rem;
+    background-color: #2c2c2c;
+    text-align: left;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.about-section th {
+    background-color: #ffbf00; /* Amber color for headers */
+    color: black;
+}
+
+.about-section td:hover {
+    background-color: #ffbf00; /* Amber background on hover */
+    color: black;
+    transform: scale(1.05); /* Slight scaling on hover */
+}
+
+/* Heading Styles */
+.about-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #ffbf00;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.3s ease;
+}
+
+.about-section h1:hover {
+    border-color: #fff; /* Border changes to white on hover */
+}

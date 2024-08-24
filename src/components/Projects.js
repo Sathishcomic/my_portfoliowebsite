@@ -9,22 +9,21 @@ export default function Projects() {
             {
                 image: websiteImg1,
                 description: 'A Ecommerce Website. Built with MERN Stack.',
-                link: 'https://github.com/jvlcode/jvlcart'
+                link: ''
             },
             {
                 image: websiteImg2,
                 description: 'Food Ecommerce website like Swiggy, Built with Angular & .Net',
-                link: 'https://github.com/jvlcode/food'
+                link: ''
             },
             {
                 image: websiteImg3,
                 description: 'Basic Blog Website . Built with Next JS and MongoDB',
-                link: 'https://github.com/jvlcode/blog'
             }
         ]
     }
 
-    return <section id='projects' className="flex  flex-col py-20 px-5 justify-center bg-primary text-white">
+    return <section id='projects' className="flex  flex-col py-40 px-5 justify-center bg-primary text-white">
         <div className="w-full">
             <div className="flex flex-col px-10 py-5">
                 <h1 className="text-4xl border-b-4 border-secondary mb-5 w-[150px] font-bold">Projects</h1>
